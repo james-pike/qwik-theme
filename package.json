@@ -56,5 +56,8 @@
   },
   "trustedDependencies": [
     "@biomejs/biome"
-  ]
+  ],
+  "dependencies": {
+    "@qwik-ui/headless": "^0.6.3"
+  }
 }

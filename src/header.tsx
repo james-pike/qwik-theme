@@ -1,7 +1,6 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import Logo from "./Logo";
 import { useTheme } from "./lib/provider";
-import Popover from "./Popover1" 
 import ToggleTheme from "./ToggleTheme";
 import ToggleMenu from "./ToggleMenu";
 
