@@ -16,15 +16,15 @@ export const Test = component$(() => {
       <button
         type="button"
         onClick$={() => {
-          setTheme("simple red");
+          setTheme("theme-blue");
         }}
       >
-        simple red
+        Blue
       </button>
       <button
         type="button"
         onClick$={() => {
-          setTheme("brutalist green");
+          setTheme("theme-red");
         }}
       >
         brutalist green

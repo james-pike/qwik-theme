@@ -1,19 +1,77 @@
-.simple.red {
-  background-color: #f00;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root{
+      --color-primary:#000000;
+      --color-secondary:#808080;
+      --color-accent:#B0B0B0;
+      --color-text-base:#FFFFFF;
+      --color-bg-primary:hsl(0, 0%, 100%);
+      
+  }
+  
+}
+/* Apple iOS-inspired themes */
+
+.theme-blue {
+  --color-primary: #147efb; /* Base */
+  --color-secondary: #0f5bb5; /* Darkest */
+  --color-accent: #85c7ff; /* Lightest */
 }
 
-.brutalist.green {
-  background-color: #0f0;
+.theme-black {
+  --color-primary: #000000; /* Base */
+  --color-secondary: #808080; /* Darkest */
+  --color-accent: #B0B0B0; /* Lightest */
 }
 
-.hand.blue {
-  background-color: #00f;
+.theme-green {
+  --color-primary: #1F7735; /* Base (Deep Forest Green) */
+  --color-secondary: #134F23; /* Darkest */
+  --color-accent: #4FA865; /* Lightest */
 }
 
-.dark {
-  background-color: #000;
+
+.theme-indigo {
+  --color-primary: #5856d6; /* Base */
+  --color-secondary: #3b39a6; /* Darkest */
+  --color-accent: #a9a7ec; /* Lightest */
 }
 
-.purple {
-  background-color: #f0f;
+.theme-orange {
+  --color-primary: #fd9426; /* Base */
+  --color-secondary: #c66d1b; /* Darkest */
+  --color-accent: #ffcd94; /* Lightest */
+}
+
+.theme-pink {
+  --color-primary: #c22542; /* Base (Deep Pink) */
+  --color-secondary: #8e1a31; /* Darkest */
+  --color-accent: #e68093; /* Lightest */
+}
+
+.theme-purple {
+  --color-primary: #8585ff; /* Base */
+  --color-secondary: #5c5cb2; /* Darkest */
+  --color-accent: #c4c4ff; /* Lightest */
+}
+
+.theme-red {
+  --color-primary: #fc3d39; /* Base */
+  --color-secondary: #c32e2b; /* Darkest */
+  --color-accent: #ff9391; /* Lightest */
+}
+
+.theme-teal {
+  --color-primary: #4191b3; /* Base (Deep Teal) */
+  --color-secondary: #2A6179; /* Darkest */
+  --color-accent: #80C5E0; /* Lightest */
+}
+
+.theme-yellow {
+  --color-primary: #fecb2e; /* Base */
+  --color-secondary: #b89622; /* Darkest */
+  --color-accent: #ffe592; /* Lightest */
 }

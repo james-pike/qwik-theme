@@ -2,6 +2,7 @@ import { ThemeProvider } from "./lib/provider"
 import { Test } from "./test"
 
 import "./index.css"
+import Header from "./header"
 
 export default () => {
 	return (
@@ -13,13 +14,14 @@ export default () => {
 			<body>
 				<ThemeProvider
 					themes={[
-						["simple", "brutalist", "hand"],
+						["theme-blue", "theme-red", "theme-green"],
 						["blue", "red", "green", "purple"],
 						["dark", "light"],
 					]}
 					attribute="class"
 				>
-					<div>Nested Theme test</div>
+					
+					<Header/>
 					<Test />
 				</ThemeProvider>
 			</body>
