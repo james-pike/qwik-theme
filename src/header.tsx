@@ -1,12 +1,12 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import Logo from "./Logo";
-import { useTheme } from "./lib/provider";
+// import { useTheme } from "./lib/provider";
 import ToggleTheme from "./ToggleTheme";
 import ToggleMenu from "./ToggleMenu";
 
 
 export default component$(() => {
-    const { theme, setTheme } = useTheme();
+    // const { theme, setTheme } = useTheme();
     const isScrolling = useSignal(false);
 
 
